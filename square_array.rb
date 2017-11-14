@@ -1,3 +1,3 @@
 def square_array(array)
-array.map {|num| num ** 2}
+array.map {|ni,num| array[ni]= num ** 2}
 end
