@@ -1,3 +1,3 @@
 def square_array(array)
-array.each {|num| num ** 2}
+array.inject([]){|na,num| na << num ** 2}
 end
